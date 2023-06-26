@@ -35,6 +35,13 @@ public class InventoryManagement {
         }
     }
 
+    public boolean isProductAvailable(Product product)
+    {
+        //checks if the product is available or out of stock
+        return product!=null && product.getQuantity()>0; 
+        
+    }
+
     public void updateSupplier(Supplier supplier){
         for(int i = 0; i < suppliers.size(); i++){
             if(suppliers.get(i).getId() == supplier.getId()){
