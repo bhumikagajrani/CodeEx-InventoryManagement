@@ -1,3 +1,4 @@
+package ProdInventory.codeex;
 import java.util.*;
 
 public class InventoryManagement {

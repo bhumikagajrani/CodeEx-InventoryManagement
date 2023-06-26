@@ -1,3 +1,4 @@
+package ProdInventory.codeex;
 public class Supplier {
     //gives all details of a supplier
     private String name;
